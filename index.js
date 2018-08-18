@@ -4,7 +4,7 @@ var renderPostCSS = function (data, options) {
     var plugins = Object.keys(hexo.config.postcss.plugins)
         .map(function (pluginName) {
             return require(pluginName)
-                (hexo.config.postcss.plugins.pluginName || undefined);
+                (hexo.config.postcss.plugins[pluginName] || undefined);
         });
 
     return postcss(plugins)
