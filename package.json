@@ -1,6 +1,6 @@
 {
   "name": "hexo-renderer-postcss",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A Hexo plugin for rendering PostCSS",
   "main": "index.js",
   "scripts": {
@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/joshacheson/hexo-renderer-postcss#readme",
   "dependencies": {
-    "cssnano": "^1.1.0",
-    "postcss": "^4.1.10"
+    "cssnano": "^4.0.5",
+    "postcss": "^7.0.2"
   }
 }
